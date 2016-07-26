@@ -4,7 +4,7 @@
   "description": "Get information about battery on OS X",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "xo && ava"
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,14 @@
     "url": "https://github.com/IAmAnubhavSaini/osx-battery/issues"
   },
   "homepage": "https://github.com/IAmAnubhavSaini/osx-battery#readme",
-  "devDependencies": {
+  "dependencies": {
     "osx-battery": "^4.0.0"
+  },
+  "xo": {
+    "space": 4
+  },
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
   }
 }
