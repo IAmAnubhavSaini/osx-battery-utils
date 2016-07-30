@@ -1,6 +1,6 @@
 {
   "name": "osx-battery-utils",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Get information about battery on OS X",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IAmAnubhavSaini/osx-battery.git"
+    "url": "git+https://github.com/IAmAnubhavSaini/osx-battery-utils.git"
   },
   "keywords": [
     "osx",
@@ -20,9 +20,9 @@
   "author": "Anubhav Saini <IAmAnubhavSaini@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/IAmAnubhavSaini/osx-battery/issues"
+    "url": "https://github.com/IAmAnubhavSaini/osx-battery-utils/issues"
   },
-  "homepage": "https://github.com/IAmAnubhavSaini/osx-battery#readme",
+  "homepage": "https://github.com/IAmAnubhavSaini/osx-battery-utils#readme",
   "dependencies": {
     "osx-battery": "^4.0.0"
   },
