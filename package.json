@@ -4,7 +4,7 @@
   "description": "Get information about battery on OS X",
   "main": "index.js",
   "scripts": {
-    "test": "xo && ava"
+    "test": "jasmine"
   },
   "repository": {
     "type": "git",
@@ -26,11 +26,7 @@
   "dependencies": {
     "osx-battery": "^4.0.0"
   },
-  "xo": {
-    "space": 4
-  },
   "devDependencies": {
-    "ava": "*",
-    "xo": "*"
+    "jasmine": "*"
   }
 }
